@@ -3,14 +3,14 @@ library(readr)
 library(stringr)
 
 # Imports
-x_train <- read_table(file = "~/Data Science Accelerator/UCI HAR Dataset/train/X_train.txt", col_names = FALSE)
-y_train <- read_table("~/Data Science Accelerator/UCI HAR Dataset/train/y_train.txt", col_names = FALSE)
-subject_train <- read_table(file = "~/Data Science Accelerator/UCI HAR Dataset/train/subject_train.txt", col_names = FALSE)
-x_test <- read_table("~/Data Science Accelerator/UCI HAR Dataset/test/X_test.txt", col_names = FALSE)
-y_test <- read_table("~/Data Science Accelerator/UCI HAR Dataset/test/y_test.txt", col_names = FALSE)
-subject_test <- read_table(file = "~/Data Science Accelerator/UCI HAR Dataset/test/subject_test.txt", col_names = FALSE)
-features <- read.table("~/Data Science Accelerator/UCI HAR Dataset/features.txt")
-activity_labels <- read_table("~/Data Science Accelerator/UCI HAR Dataset/activity_labels.txt", col_names = FALSE)
+x_train <- read_table(file = "~/UCI HAR Dataset/train/X_train.txt", col_names = FALSE)
+y_train <- read_table("~/UCI HAR Dataset/train/y_train.txt", col_names = FALSE)
+subject_train <- read_table(file = "~/UCI HAR Dataset/train/subject_train.txt", col_names = FALSE)
+x_test <- read_table("~/UCI HAR Dataset/test/X_test.txt", col_names = FALSE)
+y_test <- read_table("~/UCI HAR Dataset/test/y_test.txt", col_names = FALSE)
+subject_test <- read_table(file = "~/UCI HAR Dataset/test/subject_test.txt", col_names = FALSE)
+features <- read.table("~/UCI HAR Dataset/features.txt")
+activity_labels <- read_table("~/UCI HAR Dataset/activity_labels.txt", col_names = FALSE)
 
 
 # Combine data sets
