@@ -1,7 +1,3 @@
-# Ray Miller
-# DSA Phase 2 Week 4
-# 10/22/2017
-
 library(tidyverse)
 library(readr)
 library(stringr)
